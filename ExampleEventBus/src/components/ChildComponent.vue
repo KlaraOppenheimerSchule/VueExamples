@@ -1,11 +1,9 @@
 <script setup>
-    const props = defineProps({
-        name: String
-    })
+    const emit = defineEmits(['response'])
+    emit('response', 'hello from childOne')
 
 </script>
 
 <template>
-    <h1> {{name}} </h1>
-    <button @increase-by="increaseCount">click me</button>
+    <h1> I am the child </h1>
 </template>
