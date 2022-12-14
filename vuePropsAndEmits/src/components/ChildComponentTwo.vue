@@ -1,10 +1,9 @@
 <script setup>
     const props = defineProps({
-        myName: String
+        childMsgFromParent: String
     })
-
 </script>
 
 <template>
-    <h1> {{myName}} </h1>
+    <h1> {{childMsgFromParent}} </h1>
 </template>
