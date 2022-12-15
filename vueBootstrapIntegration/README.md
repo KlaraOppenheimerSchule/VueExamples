@@ -31,3 +31,7 @@ npm run build
 
 ### Bootstrapintegratin
 https://youtu.be/oZ9zlS5V5WU
+
+
+npm install bootstrap
+npm install @popperjs/core
